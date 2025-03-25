@@ -14,7 +14,10 @@ const TopSearch = () => {
            {/* top Search tickets routes card */}
            <div className="w-full grid grid-cols-3 gap-5">
 
-            <TopSearchCard routeFrom={"Mumbai"} routeTo={"Indore"} timeDuration={"8 Hrs"} price={"1800"} />
+            <TopSearchCard routeFrom={"Indore"} routeTo={"Mumbai"} timeDuration={"8 Hrs"} price={"1800"} />
+            <TopSearchCard routeFrom={"Indore"} routeTo={"pune"} timeDuration={"7.5 Hrs"} price={"1500"} />
+            <TopSearchCard routeFrom={"Indore"} routeTo={"Bhopal"} timeDuration={"2 Hrs"} price={"800"} />
+            <TopSearchCard routeFrom={"Indore"} routeTo={"Srinagar"} timeDuration={"15 Hrs"} price={"3000"} />
            </div>
         </RootLayout>
     )
