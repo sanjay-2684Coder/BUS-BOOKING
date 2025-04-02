@@ -5,6 +5,7 @@ import Home from "./pages/home/Home"
 import About from "./pages/about/About"
 import Footer from "./components/footer/Footer"
 import Ticket from "./pages/ticket/Ticket"
+import Details from "./pages/ticket/details/Details"
 function App() {
 
   return (
@@ -18,6 +19,8 @@ function App() {
       <Route path="/"element={<Home />} />
       <Route path="/about"element={<About />} />
       <Route path="/bus-tickets"element={<Ticket />} />
+      <Route path="/bus-tickets/details"element={<Details />} />
+
      </Routes>
 
       {/* Footer */}

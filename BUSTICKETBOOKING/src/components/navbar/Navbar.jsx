@@ -15,6 +15,7 @@ const navItems =[
   {label: "Services",link: "/services"},
   {label: "Tickets",link: "/bus-tickets"},
   {label: "About",link: "/about"},
+  
 
 ]
 
