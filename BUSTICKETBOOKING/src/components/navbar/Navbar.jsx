@@ -82,11 +82,14 @@ const navItems =[
           </ul>
 
           {/* button */}
+          <Link to="/signup">
           <div className="flex items-center justify-center">
             <button className="md:w-fit w-full md:px-4 px-6 md:py-1 py-2.5 bg-primary hover:bg-transparent text-white border border-primary hover:border-primary md:rounded-full rounded-xl text-base font-normal  hover:text-primary ease-in-out duration-300">
               Sign In
               </button>
+             
           </div>
+          </Link>
         </div>
         </div>
     </nav>

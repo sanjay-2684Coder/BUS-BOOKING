@@ -6,6 +6,9 @@ import About from "./pages/about/About"
 import Footer from "./components/footer/Footer"
 import Ticket from "./pages/ticket/Ticket"
 import Details from "./pages/ticket/details/Details"
+import Checkout from "./pages/ticket/checkout/Checkout"
+import Invoice from "./pages/ticket/invoice/Invoice"
+
 function App() {
 
   return (
@@ -20,7 +23,9 @@ function App() {
       <Route path="/about"element={<About />} />
       <Route path="/bus-tickets"element={<Ticket />} />
       <Route path="/bus-tickets/details"element={<Details />} />
-
+      <Route path="/bus-tickets/checkout"element={<Checkout />} />
+      <Route path="/bus-tickets/payment"element={<Invoice />} />
+      
      </Routes>
 
       {/* Footer */}
